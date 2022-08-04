@@ -1,0 +1,109 @@
+/* Colors and fonts */
+
+body {
+  background-color: lightblue;
+  color: rgb(51, 45, 45);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+
+}
+
+h1 {
+  color: rgb(121, 205, 222) ;
+  text-shadow: rgb(51, 45, 45);
+  font-family: 'Poppins', sans-serif;
+  font-size: 38px;
+  line-height: 1.8;
+
+}
+
+h2 {
+  color: rgb(222, 178, 121) ;
+  text-shadow: rgb(51, 45, 45);
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  line-height: 2.0;
+
+}
+
+a {
+  color: rgb(159, 142, 119);
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: gold;
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-round {
+  border-radius: 50%;
+}
+.bouton-green {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+}
+.bouton-green:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.list-site {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-site li {
+  display: inline;
+  padding: 10px;
+}
+.list-site i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-site i:hover {
+  color: black;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#intro p {
+  margin-bottom: 40px;
+}
